@@ -79,10 +79,17 @@ gulp.task('copy:license', () =>
 
 gulp.task('copy:style', () => {
   const banner = `/*! HTML5 Boilerplate v${pkg.version} | ${pkg.license} License | ${pkg.homepage} */\n\n`;
+  const tajawalFontStyles = `/* Tajawal Font - Applied globally via font-family */
+html,
+body {
+  font-family: 'Tajawal', sans-serif;
+}
+
+`;
 
   return gulp
     .src('node_modules/main.css/dist/main.css')
-    .pipe(gulpHeader(banner))
+    .pipe(gulpHeader(banner + tajawalFontStyles))
     .pipe(
       gulpAutoPrefixer({
         cascade: false,

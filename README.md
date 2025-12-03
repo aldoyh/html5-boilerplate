@@ -5,47 +5,46 @@
 [![NPM Downloads](https://img.shields.io/npm/dt/html5-boilerplate.svg)](https://www.npmjs.com/package/html5-boilerplate)
 [![github-stars-image](https://img.shields.io/github/stars/h5bp/html5-boilerplate.svg?label=github%20stars)](https://github.com/h5bp/html5-boilerplate)
 
-HTML5 Boilerplate is a professional front-end template for building
-fast, robust, and adaptable web apps or sites.
+HTML5 Boilerplate هو قالب احترافي للواجهة الأمامية لبناء
+تطبيقات أو مواقع ويب سريعة وقوية وقابلة للتكيف.
 
-This project is the product of over 10 years of iterative development and
-community knowledge. It does not impose a specific development
-philosophy or framework, so you're free to architect your code in the
-way that you want.
+هذا المشروع هو نتاج أكثر من 10 سنوات من التطوير التكراري والمعرفة
+المجتمعية. لا يفرض فلسفة أو إطار عمل تطوير محدد، لذا فأنت حر في
+تصميم الكود الخاص بك بالطريقة التي تريدها.
 
-- [Homepage](https://html5boilerplate.com/)
-- [Source Code](https://github.com/h5bp/html5-boilerplate)
+- [الصفحة الرئيسية](https://html5boilerplate.com/)
+- [الكود المصدري](https://github.com/h5bp/html5-boilerplate)
 
-## About This Repository
+## حول هذا المستودع
 
-This repository is where HTML5-Boilerplate is authored. Some of the tools,
-files and processes that you see here are solely for the _production_ of
-HTML5 Boilerplate and are not _part_ of HTML5 Boilerplate. For one example, the
-[gulpfile.mjs](https://github.com/h5bp/html5-boilerplate/blob/main/gulpfile.mjs)
-script is used to _build_ the project. It's not part of the project itself.
+هذا المستودع هو المكان الذي تم فيه تأليف HTML5-Boilerplate. بعض الأدوات
+والملفات والعمليات التي تراها هنا مخصصة فقط لـ _إنتاج_
+HTML5 Boilerplate وليست _جزءًا_ من HTML5 Boilerplate. على سبيل المثال،
+سكريبت [gulpfile.mjs](https://github.com/h5bp/html5-boilerplate/blob/main/gulpfile.mjs)
+يُستخدم لـ _بناء_ المشروع. إنه ليس جزءًا من المشروع نفسه.
 
-The project we publish is represented by the contents of the `/dist/`
-folder. Everything else in this repository is used to author the project.
+المشروع الذي ننشره ممثل بمحتويات مجلد `/dist/`.
+كل شيء آخر في هذا المستودع يُستخدم لتأليف المشروع.
 
-Think of it this way, in the same way that you don't clone [vuejs/core](https://github.com/vuejs/core)
-to create a Vue.js app, you don't need to clone this repository to start a new
-site or app based on HTML5 Boilerplate.
+فكر في الأمر بهذه الطريقة، بنفس الطريقة التي لا تستنسخ بها [vuejs/core](https://github.com/vuejs/core)
+لإنشاء تطبيق Vue.js، لا تحتاج إلى استنساخ هذا المستودع لبدء
+موقع أو تطبيق جديد يعتمد على HTML5 Boilerplate.
 
-So, if you're looking for a quick start template to build a website or
-application, look at the options in the
-[Quick Start](https://github.com/h5bp/html5-boilerplate#quick-start) section of this document.
+لذا، إذا كنت تبحث عن قالب بداية سريعة لبناء موقع ويب أو
+تطبيق، انظر إلى الخيارات في
+قسم [البداية السريعة](https://github.com/h5bp/html5-boilerplate#quick-start) من هذا المستند.
 
-If you want to help us _improve_ HTML5 Boilerplate then you can start with the documentation [here](.github/CONTRIBUTING.md), which includes steps to clone this repo in order to get it set up for development.
+إذا كنت تريد مساعدتنا في _تحسين_ HTML5 Boilerplate، فيمكنك البدء بالوثائق [هنا](.github/CONTRIBUTING.md)، والتي تتضمن خطوات لاستنساخ هذا المستودع من أجل إعداده للتطوير.
 
-## Quick Start
+## البداية السريعة
 
-Choose one of the following options:
+اختر أحد الخيارات التالية:
 
-- Using the [create-html5-boilerplate](https://github.com/h5bp/create-html5-boilerplate)
-  script, instantly fetch the latest npm published package (or any version
-  available on npm) with `npx`, `npm init` or `yarn create` without having to
-  install any dependencies. Running the following `npx` command installs the
-  latest version into a folder called `new-site`
+- استخدام سكريبت [create-html5-boilerplate](https://github.com/h5bp/create-html5-boilerplate)
+  للحصول فورًا على أحدث حزمة npm منشورة (أو أي إصدار
+  متاح على npm) باستخدام `npx` أو `npm init` أو `yarn create` دون الحاجة إلى
+  تثبيت أي تبعيات. تشغيل أمر `npx` التالي يثبت
+  أحدث إصدار في مجلد يسمى `new-site`
 
   ```bash
   npx create-html5-boilerplate new-site
@@ -54,68 +53,68 @@ Choose one of the following options:
   npm run start
   ```
 
-- Using our new [Template Repository](https://github.com/h5bp/html5-boilerplate-template)
-  create a new GitHub repository based on the latest code from the main branch of HTML5
+- استخدام [مستودع القالب](https://github.com/h5bp/html5-boilerplate-template) الجديد
+  لإنشاء مستودع GitHub جديد بناءً على أحدث كود من الفرع الرئيسي لـ HTML5
   Boilerplate.
 
-- Install with [npm](https://www.npmjs.com/): `npm install html5-boilerplate`
-  or [yarn](https://yarnpkg.com/): `yarn add html5-boilerplate`. The resulting
-  `node_modules/html5-boilerplate/dist` folder represents the latest version of
-  the project for end users. Depending on what you want to use and how you want
-  to use it, you may have to copy and paste the contents of that folder into
-  your project directory.
+- التثبيت باستخدام [npm](https://www.npmjs.com/): `npm install html5-boilerplate`
+  أو [yarn](https://yarnpkg.com/): `yarn add html5-boilerplate`. المجلد الناتج
+  `node_modules/html5-boilerplate/dist` يمثل أحدث إصدار من
+  المشروع للمستخدمين النهائيين. اعتمادًا على ما تريد استخدامه وكيف تريد
+  استخدامه، قد تضطر إلى نسخ ولصق محتويات هذا المجلد في
+  دليل مشروعك.
 
-- Download the latest stable release from
-  [here](https://github.com/h5bp/html5-boilerplate/releases/download/v9.0.0/html5-boilerplate_v9.0.0.zip). This zip file is a
-  snapshot of the `dist` folder. On Windows, Mac and from the file manager on
-  Linux unzipping this folder will output to a folder named something like
-  `html5-boilerplate_v9.0.0`. From the command-line, you will need to create a
-  folder and unzip the contents into that folder.
+- تنزيل أحدث إصدار مستقر من
+  [هنا](https://github.com/h5bp/html5-boilerplate/releases/download/v9.0.0/html5-boilerplate_v9.0.0.zip). ملف zip هذا هو
+  لقطة لمجلد `dist`. على Windows أو Mac ومن مدير الملفات على
+  Linux، سيؤدي فك ضغط هذا المجلد إلى إخراج مجلد يسمى شيئًا مثل
+  `html5-boilerplate_v9.0.0`. من سطر الأوامر، ستحتاج إلى إنشاء
+  مجلد وفك ضغط المحتويات في هذا المجلد.
 
   ```bash
   mkdir html5-boilerplate
   unzip html5-boilerplate*.zip -d html5-boilerplate
   ```
 
-## Features
+## الميزات
 
-- A finely-tuned starter template: Reap the benefits of 10 years of analysis,
-  research and experimentation by over 200 contributors.
-- Designed with progressive enhancement in mind.
-- Includes:
-  - Placeholder Open Graph elements and attributes.
-  - An example package.json file with [WebPack](https://webpack.js.org/) commands
-    built in to jumpstart application development.
-  - Placeholder CSS Media Queries.
-  - Useful CSS helper classes.
-  - Default print styles, performance optimized.
-  - "Delete-key friendly." Easy to strip out parts you don't need.
-  - Extensive documentation.
+- قالب بداية مضبوط بدقة: اجنِ فوائد 10 سنوات من التحليل
+  والبحث والتجريب من قبل أكثر من 200 مساهم.
+- مصمم مع وضع التحسين التدريجي في الاعتبار.
+- يتضمن:
+  - عناصر وسمات Open Graph النائبة.
+  - ملف package.json نموذجي مع أوامر [WebPack](https://webpack.js.org/)
+    مدمجة لبدء تطوير التطبيق.
+  - استعلامات CSS Media النائبة.
+  - فئات مساعدة CSS مفيدة.
+  - أنماط طباعة افتراضية، محسنة للأداء.
+  - "سهل الحذف." من السهل إزالة الأجزاء التي لا تحتاجها.
+  - وثائق شاملة.
 
-## Browser Support
+## دعم المتصفحات
 
-HTML5-Boilerplate supports the latest, stable releases of all major browsers.
+يدعم HTML5-Boilerplate أحدث الإصدارات المستقرة من جميع المتصفحات الرئيسية.
 
-Check the `default` configuration from [Browserslist](https://browsersl.ist/#q=defaults)
-for more details on browsers and versions covered.
+تحقق من تكوين `default` من [Browserslist](https://browsersl.ist/#q=defaults)
+لمزيد من التفاصيل حول المتصفحات والإصدارات المغطاة.
 
-## Documentation
+## الوثائق
 
-Take a look at the [documentation table of contents](docs/TOC.md). This
-documentation is bundled with the project which makes it available for offline
-reading and provides a useful starting point for any documentation you want to
-write about your project.
+ألقِ نظرة على [جدول محتويات الوثائق](docs/TOC.md). هذه
+الوثائق مجمعة مع المشروع مما يجعلها متاحة للقراءة
+دون اتصال بالإنترنت وتوفر نقطة انطلاق مفيدة لأي وثائق تريد
+كتابتها حول مشروعك.
 
-## Contributing
+## المساهمة
 
-Hundreds of developers have helped to make the HTML5 Boilerplate. Anyone is
-welcome to [contribute](.github/CONTRIBUTING.md). However, if you decide to get
-involved, please take a moment to review the [guidelines](.github/CONTRIBUTING.md):
+ساعد المئات من المطورين في إنشاء HTML5 Boilerplate. أي شخص
+مرحب به [للمساهمة](.github/CONTRIBUTING.md). ومع ذلك، إذا قررت
+المشاركة، يرجى قضاء لحظة لمراجعة [الإرشادات](.github/CONTRIBUTING.md):
 
-- [Bug reports](.github/CONTRIBUTING.md#bugs)
-- [Feature requests](.github/CONTRIBUTING.md#features)
-- [Pull requests](.github/CONTRIBUTING.md#pull-requests)
+- [تقارير الأخطاء](.github/CONTRIBUTING.md#bugs)
+- [طلبات الميزات](.github/CONTRIBUTING.md#features)
+- [طلبات السحب](.github/CONTRIBUTING.md#pull-requests)
 
-## License
+## الترخيص
 
-The code is available under the [MIT license](LICENSE.txt).
+الكود متاح بموجب [ترخيص MIT](LICENSE.txt).
