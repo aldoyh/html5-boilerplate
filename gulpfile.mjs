@@ -79,10 +79,29 @@ gulp.task('copy:license', () =>
 
 gulp.task('copy:style', () => {
   const banner = `/*! HTML5 Boilerplate v${pkg.version} | ${pkg.license} License | ${pkg.homepage} */\n\n`;
+  const tajawalFontStyles = `/* Tajawal Font */
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap');
+
+/* Apply Tajawal font globally */
+html {
+  font-family: 'Tajawal', sans-serif;
+}
+
+body {
+  font-family: 'Tajawal', sans-serif;
+}
+
+/* RTL Support */
+[dir="rtl"] body {
+  direction: rtl;
+  text-align: right;
+}
+
+`;
 
   return gulp
     .src('node_modules/main.css/dist/main.css')
-    .pipe(gulpHeader(banner))
+    .pipe(gulpHeader(banner + tajawalFontStyles))
     .pipe(
       gulpAutoPrefixer({
         cascade: false,
