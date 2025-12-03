@@ -1,21 +1,9 @@
 /*! HTML5 Boilerplate v9.0.1 | MIT License | https://html5boilerplate.com/ */
 
-/* Tajawal Font */
-@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap');
-
-/* Apply Tajawal font globally */
-html {
-  font-family: 'Tajawal', sans-serif;
-}
-
+/* Tajawal Font - Applied globally via font-family */
+html,
 body {
   font-family: 'Tajawal', sans-serif;
-}
-
-/* RTL Support */
-[dir="rtl"] body {
-  direction: rtl;
-  text-align: right;
 }
 
 /* main.css 3.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
